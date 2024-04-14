@@ -25,8 +25,8 @@ while True:
     print()
     print("Continue typing : ")
     a = input()
-    if a == "amit":
-        print("I hate this Name, I am leaving this chat, Bye!")
-        say("I hate this Name, I am leaving this chat, bye!")
+    if a == "q":
+        print("Thanks For using me, Have a great day, Bye.")
+        say("Thanks For using me, Have a great day, Bye.")
         break
     say(a,rate=150)
